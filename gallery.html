@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>גלריית רכב חכם</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        /* Custom Styles */
+        body {
+            background-color: #121212; /* Dark background */
+            color: white; /* Light text color */
+        }
+
+        .navbar {
+            background-color: #000; /* Black navbar */
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: white !important; /* White text in navbar */
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #000000; /* Darker background on hover */
+            border-radius: 5px;
+        }
+
+        .card {
+            background-color: #333; /* Dark background for cards */
+            border-radius: 15px; /* Rounded corners for cards */
+            border: none; /* Remove card borders */
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .card:hover {
+            background-color: #444; /* Darker background on hover */
+            transform: scale(1.05); /* Slight zoom on hover */
+        }
+
+        .card-img-top {
+            border-radius: 15px 15px 0 0; /* Rounded top corners for images */
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card-text {
+            color: #ddd; /* Light text color for descriptions */
+        }
+
+        .text-primary {
+            color: #ff0000 !important; /* Gold color for primary text */
+        }
+
+        footer {
+            background-color: #000; /* Dark footer */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-gradient">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brand text-white fw-bold fs-3">
+            🚗 רכב חכם IOT
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-white">🏠 בית</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link text-white">📞 צור קשר</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link text-white">🖼️ גלריה</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link text-white">ℹ️ אודות</a>
+                </li>
+                <li class="nav-item">
+                    <a href="features.html" class="nav-link text-white">🔧 תכונות</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sensor.html" class="nav-link text-white">🔍 חיישן מרחק</a>
+                </li>
+                <li class="nav-item">
+                    <a href="control.html" class="nav-link text-white">🎮 שליטה במנועים </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+
+
+<!-- Gallery Content -->
+<div class="container mt-4">
+    <h1 class="text-center text-primary mb-4">גלריית רכב חכם</h1>
+    <div class="row">
+        <!-- Image 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://ae-pic-a1.aliexpress-media.com/kf/Sfaa0d9fb1cce4b7d9a48820d61d8d760V.jpg_220x220q75.jpg_.avif" alt="תמונה 1 של הרכב">
+                <div class="card-body">       
+                </div>
+            </div>
+        </div>
+        <!-- Image 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://ae-pic-a1.aliexpress-media.com/kf/S9c616da21f504f4ba046f9638a37f5c2p.jpg_220x220q75.jpg_.avif" alt="תמונה 2 של הרכב">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+        <!-- Image 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://ae-pic-a1.aliexpress-media.com/kf/S6d9702ada9d24b3daddda06891cdce7eh.jpg_220x220q75.jpg_.avif" alt="תמונה 3 של הרכב">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+        <!-- Image 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://i5.walmartimages.com/seo/Fule-4WD-Robot-Smart-Car-Chassis-Kits-car-with-Speed-Encoder-for-Arduino_bb8729ff-5881-402e-a0da-32083b648142.fd951bdbebea984cc098a43d4866bbe4.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="תמונה 4 של הרכב">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+        <!-- Image 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpuNSh9ntVPn3ASkk3NVWY_I0HZUxXAV7ZA&s" alt="תמונה 5 של הרכב">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+        <!-- Image 6 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="https://ae-pic-a1.aliexpress-media.com/kf/S4d0cb21c335c4554abd69c31d7dd5af7t.jpg_220x220q75.jpg_.avif" alt="תמונה 6 של הרכב">
+                <div class="card-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 רכב חכם IOT | כל הזכויות שמורות</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-database-compat.js"></script>
+
+</body>
+</html>
